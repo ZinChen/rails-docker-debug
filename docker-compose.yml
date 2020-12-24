@@ -10,6 +10,8 @@ services:
       - 3000:3000
     depends_on:
       - db
+    stdin_open: true
+    tty: true
   db:
     hostname: db
     image: postgres:10
