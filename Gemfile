@@ -46,3 +46,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "test", "~> 1.0", :group => :development
+
+gem "pry", "~> 0.13.1"

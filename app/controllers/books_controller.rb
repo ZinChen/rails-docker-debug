@@ -5,7 +5,7 @@ class BooksController < ApplicationController
   def index
     @books = Book.all
 
-    byebug
+    binding.pry
 
     render json: @books
   end

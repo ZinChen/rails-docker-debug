@@ -13,7 +13,6 @@ services:
     stdin_open: true
     tty: true
   db:
-    hostname: db
     image: postgres:10
     volumes:
       - db-data:/var/lib/postgresql
