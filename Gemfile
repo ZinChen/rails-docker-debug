@@ -48,3 +48,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "test", "~> 1.0", :group => :development
 
 gem "pry", "~> 0.13.1"
+
+gem "ruby-debug-ide", "~> 0.7.2"
+gem "debase", "~> 0.2.4"
