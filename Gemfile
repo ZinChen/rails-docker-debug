@@ -34,6 +34,12 @@ group :development, :test do
   gem "rubocop-rails", "~> 2.9"
   gem "rubocop-rspec", "~> 2.1"
   gem "rubocop-performance", "~> 1.9"
+
+  gem "test", "~> 1.0"
+  gem "pry", "~> 0.13.1"
+
+  gem "ruby-debug-ide", "~> 0.7.2"
+  gem "debase", "~> 0.2.4"
 end
 
 group :development do
@@ -44,10 +50,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gem "test", "~> 1.0", :group => :development
-
-gem "pry", "~> 0.13.1"
-
-gem "ruby-debug-ide", "~> 0.7.2"
-gem "debase", "~> 0.2.4"
